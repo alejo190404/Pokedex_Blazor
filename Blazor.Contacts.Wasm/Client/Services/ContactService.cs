@@ -24,7 +24,7 @@ namespace Blazor.Contacts.Wasm.Client.Services
 
         public async Task<Contact> GetDetails(int id)
         {
-            return await _httpClient.GetFromJsonAsync<Contact>($"api/contacts/{id}")
+            return await _httpClient.GetFromJsonAsync<Contact>($"api/contacts/{id}");
         }
 
         public async Task SaveContact(Contact contact)
