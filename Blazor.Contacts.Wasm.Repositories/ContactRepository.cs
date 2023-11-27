@@ -1,4 +1,5 @@
 ﻿using Blazor.Contacts.Wasm.Shared;
+using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,14 +32,55 @@ namespace Blazor.Contacts.Wasm.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> InsertContact(Contact contact)
+        public async Task<bool> InsertContact(Contact contact)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var sql = @"INSERT INTO Contacts(FirstName, LastName, Phone, Address)
+                            VALUES(@FirstName, @LastName, @Phone, @Address)";
+                var result = await _dbConnection.ExecuteAsync(sql,
+                    new
+                    {
+                        contact.FirstName,
+                        contact.LastName,
+                        contact.Phone,
+                        contact.Address
+                    });
+
+                return result > 0;
+            }
+            catch (Exception e) {
+                throw e;
+            }
+
         }
 
-        public Task<bool> UpdateContact(Contact contact)
+        public async    Task<bool> UpdateContact(Contact contact)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var sql = @"UPDATE Contacts
+                               SET FirstName = @FirstName,
+                                   LastName = @LastName,
+                                   Phone = @Phone,
+                                   Address = @Address
+                             WHERE Id = @Id";
+                var result = await _dbConnection.ExecuteAsync(sql,
+                    new
+                    {
+                        contact.FirstName,
+                        contact.LastName,
+                        contact.Phone,
+                        contact.Address,
+                        contact.Id
+                    });
+
+                return result > 0;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
     }
 }

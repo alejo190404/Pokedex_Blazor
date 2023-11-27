@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TWRzYcRwy5qysrlPBrz+yI1iZvOUs+gjz605IbPCa/quPB4xQ6o7JXUXDz7Mf3YZF3xy2Ar0wJp3xK1yU7Ne+Q==",
+  "dgSpecHash": "uG7Wcm5Pulk/oMnozLUb5pTBz7ZJ29zRQjtqZHBQBex5iquQyv1bSUi/6xG5o2g3xDitwQmyA3FnlQD1Vm5BFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alejo\\source\\repos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\Blazor.Contacts.Wasm.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alejo\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.23\\microsoft.aspnetcore.authorization.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.23\\microsoft.aspnetcore.components.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.23\\microsoft.aspnetcore.components.analyzers.6.0.23.nupkg.sha512",
