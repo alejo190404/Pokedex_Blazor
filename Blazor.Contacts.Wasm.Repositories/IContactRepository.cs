@@ -9,6 +9,7 @@ namespace Blazor.Contacts.Wasm.Repositories
 {
     public interface IContactRepository
     {
+        //Clase abstracta de la interfaz
         Task<bool> InsertContact(Contact contact);
         Task<bool> UpdateContact(Contact contact);
         Task DeleteContact(int id);
