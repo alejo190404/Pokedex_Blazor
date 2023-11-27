@@ -17,14 +17,20 @@ namespace Blazor.Contacts.Wasm.Repositories
             _dbConnection = dbConnection;
         }
 
-        public Task DeleteContact(int id)
+        public async Task DeleteContact(int id)
         {
-            throw new NotImplementedException();
+            var sql = @"DELETE FROM Contacts
+                        WHERE Id = @Id";
+            var result = await _dbConnection.ExecuteAsync(sql, new {Id = id});
         }
 
-        public Task<IEnumerable<Contact>> GetAllContacts()
+        public async Task<IEnumerable<Contact>> GetAll()
         {
-            throw new NotImplementedException();
+            var sql = @"SELECT Id, FirstName, LastName, Phone, Address
+                        FROM Contacts";
+            return await _dbConnection.QueryAsync<Contact>(
+                sql, new {}
+                );
         }
 
         public async Task<Contact> GetDetails(int id)
