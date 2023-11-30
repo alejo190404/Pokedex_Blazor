@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e/SubRwp8dywSIsA1p8FX23YSFKElVJd9AAiCCf2QZmzxw7AmvzPiA4OECdcyDn21IuVs2dMsbN8xHM/T823BA==",
+  "dgSpecHash": "bcDas62UXHRLo/bEg8JDJNGg3/V12bXUmk4sJrjgE+pT7Rjg5x4mvmjLFc+kuT8b9Z6IGb0yrkx77uzBE5x4dQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alejo\\source\\repos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Client\\Blazor.Contacts.Wasm.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alejo\\.nuget\\packages\\dartsassbuilder\\1.0.0\\dartsassbuilder.1.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.23\\microsoft.aspnetcore.authorization.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.23\\microsoft.aspnetcore.components.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.23\\microsoft.aspnetcore.components.analyzers.6.0.23.nupkg.sha512",
@@ -28,8 +29,10 @@
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.jsinterop\\6.0.23\\microsoft.jsinterop.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.23\\microsoft.jsinterop.webassembly.6.0.23.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\radzen.blazor\\4.22.1\\radzen.blazor.4.22.1.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\system.linq.dynamic.core\\1.3.0\\system.linq.dynamic.core.1.3.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",

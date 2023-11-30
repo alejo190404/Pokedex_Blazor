@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alejo/source/repos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alejo/source/repos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alejo/source/repos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alejo/source/repos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/Counter.razor]
