@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pGFeEnW5e532zj1G6zWHuXJr3oWEZ0mObcwfQwNctD+fsziBvp6Tdfjdc3BJ0YRbvmenISGb8ID5o+TZRip5/Q==",
+  "dgSpecHash": "ukQrDuZuHZJCf/SChuyp4iUmxWP5/9lGAe8/sClq9iB/r5s0ogCrlQZ3/8H6MIRovNPwpQQDPbW+5oP4vhyjTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alejo\\source\\repos\\BlazorPokedex\\BlazorPokedex.Client\\BlazorPokedex.Client.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.jsinterop\\6.0.23\\microsoft.jsinterop.6.0.23.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.23\\microsoft.jsinterop.webassembly.6.0.23.nupkg.sha512",
+    "C:\\Users\\alejo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\alejo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
