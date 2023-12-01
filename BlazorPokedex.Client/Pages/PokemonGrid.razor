@@ -17,6 +17,11 @@ else
                             <h4 class="card-title">@pokemon.Name</h4>
                             <img src="@pokemon.Sprites.Front" class="img-fluid" alt="@pokemon.Name" />
                         </div>
+                        <div class="moreinfo">
+                            <span class="badge border rounded-pill bg-@(pokemon.Types.FirstOrDefault().PokemonType.Name)">
+                                <a href="/pokeDetails/@pokemon.Name">Leer más</a>
+                            </span>
+                        </div>
                     </div>
                 }
             </div>
@@ -30,5 +35,5 @@ else
     public IEnumerable<Pokemon> Pokemons { get; set; }
     
     [Parameter]
-    public int NumberOfRows { get; set; } = 5;
+    public int NumberOfRows { get; set; }
 }

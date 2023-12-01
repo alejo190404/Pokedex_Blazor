@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZURleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alejo/source/repos/BlazorPokedex/BlazorPokedex.Client/Pages/PokemonDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZW1vbkRldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alejo/source/repos/BlazorPokedex/BlazorPokedex.Client/Pages/PokemonGrid.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZW1vbkdyaWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

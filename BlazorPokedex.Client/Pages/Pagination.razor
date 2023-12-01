@@ -4,8 +4,10 @@
     <ul class="pagination justify-content-center">
         @foreach (var item in _paginationButtons)
         {
-            <li style="cursor:pointer" class="page-item @(item.Enabled ? null : "disbaled") @(item.Active ? "active" : null)">
-                <span class="page-link" href"#">
+            <li @onclick="() => OnSelectedPage(item)" style="cursor:pointer" class="page-item 
+                @(item.Enabled ? null : "disbaled") 
+                @(item.Active ? "active" : null)">
+                <span class="page-link" href="#">
                     @item.Text
                 </span>
             </li>
@@ -44,5 +46,14 @@
 
         _paginationButtons.Add(new PaginationButton(MetaData.CurrentPage + 1, MetaData.HasNext, "Next"));
 
+    }
+
+    private async Task OnSelectedPage(PaginationButton button)
+    {
+        if (button.Page == MetaData.CurrentPage || !button.Enabled)
+            return;
+
+        MetaData.CurrentPage = button.Page;
+        await SelectedPage.InvokeAsync(button.Page);
     }
 }

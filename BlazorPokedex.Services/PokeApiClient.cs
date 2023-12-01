@@ -16,18 +16,17 @@ namespace BlazorPokedex.Services
         {
             _httpClient = httpClient;
         }
-        public async Task<IEnumerable<Pokemon>> GetAllPokemons()
+        public async Task<Result> GetAllPokemons(PaginationParameters parameters)
         {
 
-            var pokemonList = JsonConvert.DeserializeObject<Result>(await _httpClient.GetStringAsync($"pokemon?limit=20&offset=20"));
-            var resultList = new List<Pokemon>();
+            return JsonConvert.DeserializeObject<Result>(
+                await _httpClient.GetStringAsync($"pokemon?limit={parameters.PageSize}&offset={parameters.Offset}"));
 
-            foreach(var pokemon in pokemonList.Pokemons)
-            {
-                resultList.Add(await GetPokemon(pokemon.Name));
-            }
+        }
 
-            return resultList;
+        public Task<IEnumerable<Pokemon>> GetAllPokemons()
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Pokemon> GetPokemon(string name)
