@@ -9,3 +9,4 @@ C:\Users\alejo\source\repos\BlazorPokedex\BlazorPokedex.Models\obj\Debug\net6.0\
 C:\Users\alejo\source\repos\BlazorPokedex\BlazorPokedex.Models\obj\Debug\net6.0\refint\BlazorPokedex.Models.dll
 C:\Users\alejo\source\repos\BlazorPokedex\BlazorPokedex.Models\obj\Debug\net6.0\BlazorPokedex.Models.pdb
 C:\Users\alejo\source\repos\BlazorPokedex\BlazorPokedex.Models\obj\Debug\net6.0\ref\BlazorPokedex.Models.dll
+C:\Users\alejo\source\repos\BlazorPokedex\BlazorPokedex.Models\obj\Debug\net6.0\BlazorPokedex.Models.csproj.AssemblyReference.cache

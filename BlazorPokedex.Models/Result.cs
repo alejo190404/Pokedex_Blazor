@@ -10,6 +10,6 @@ namespace BlazorPokedex.Models
     public class Result
     {
         [JsonProperty("results")]
-        List<Pokemon> Pokemons { get; set; }
+        public List<Pokemon> Pokemons { get; set; }
     }
 }
