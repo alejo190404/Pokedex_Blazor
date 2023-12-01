@@ -197,17 +197,17 @@
       "mscorlib.dll": "sha256-jzikATOUXZ4ADvFQ16S0KGAR1MWeQw31aXXccUFs08w=",
       "netstandard.dll": "sha256-87jtKWKXMg3nXj8D1mLQabI+cTWOPvy5ll3sBYj\/ZhI=",
       "System.Private.CoreLib.dll": "sha256-gjd6M5pA\/nOZEI8pvs9SPUAFG1Jppwr9Xl6v7Wab8Fc=",
-      "BlazorPokedex.Models.dll": "sha256-DoGmMZA\/i0JwAf2mwI4l8Wwn59QkvZAUVgovGkyLvGQ=",
-      "BlazorPokedex.Services.dll": "sha256-PHoDzlpq3IjbhdWRYhMn5fuy0wpwa3Y6zKugUnCWGIo=",
-      "BlazorPokedex.Client.dll": "sha256-oH9RswwIX1p2ipSfhsFEEtw0hISfEOhw5grvpdS4E8w="
+      "BlazorPokedex.Models.dll": "sha256-l4HsQ8EKGCKQoxYe+ZPXeSGpw7bmA5vYbc9r0\/YzT7w=",
+      "BlazorPokedex.Services.dll": "sha256-BzcW+vSwgEWVZ91tiVZKcbCa4Ynpbk487vKsG3yfl6M=",
+      "BlazorPokedex.Client.dll": "sha256-eaYnq8FRK8bxmuQHyVJlj\/Jsd+AQMrYn1L38x\/A1K7g="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorPokedex.Models.pdb": "sha256-MpaimghNw9Z+ZU99wgjLRlwBDHwwjr6i6L2Dku3L+yI=",
-      "BlazorPokedex.Services.pdb": "sha256-Qgz\/wmznAO7zjvLzq7osk7WrQWbCgB6xSuJnm2C43Nk=",
-      "BlazorPokedex.Client.pdb": "sha256-0\/iSN7ZPWdgY4UqOjFDFvuM5asP8ZcLngNb\/GY5+k\/s="
+      "BlazorPokedex.Models.pdb": "sha256-eucu\/bxI1dhclvZJF2JufvDpbjpy+FldAqkQVu42tAc=",
+      "BlazorPokedex.Services.pdb": "sha256-X0qhNM\/mdjgvjA6wcQE9ouHZdkboIfCdn47VUeRbQpw=",
+      "BlazorPokedex.Client.pdb": "sha256-9b3RiFvAFviWD3Suha6yhrRBQGRDWkQpSZPt9ZOMvTg="
     },
     "runtime": {
       "dotnet.6.0.23.8oivlb1fpq.js": "sha256-YYG9NE7FnTlr1qMbQzBTzUGZOcLX64xP2Z1+An1jT6U=",

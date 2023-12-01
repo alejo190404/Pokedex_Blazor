@@ -1,0 +1,34 @@
+﻿@using Models
+
+@if (Pokemons == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div>
+        @for (int i = 0; i < NumberOfRows; i++)
+        {
+            <div class="row">
+                @foreach (var pokemon in Pokemons.Skip(i * 6).Take(6))
+                {
+                    <div class="card pokeCard mb-4 bg-@(pokemon.Types.FirstOrDefault().PokemonType.Name)">
+                        <div class="card-body">
+                            <h4 class="card-title">@pokemon.Name</h4>
+                            <img src="@pokemon.Sprites.Front" class="img-fluid" alt="@pokemon.Name" />
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public IEnumerable<Pokemon> Pokemons { get; set; }
+    
+    [Parameter]
+    public int NumberOfRows { get; set; } = 5;
+}

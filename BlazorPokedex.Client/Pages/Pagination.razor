@@ -1,0 +1,48 @@
+﻿@using Models
+
+<nav> 
+    <ul class="pagination justify-content-center">
+        @foreach (var item in _paginationButtons)
+        {
+            <li style="cursor:pointer" class="page-item @(item.Enabled ? null : "disbaled") @(item.Active ? "active" : null)">
+                <span class="page-link" href"#">
+                    @item.Text
+                </span>
+            </li>
+        }
+    </ul>
+</nav>
+
+@code {
+    private List<PaginationButton> _paginationButtons;
+
+    [Parameter]
+    public PaginationMetaData MetaData { get; set; }
+
+    [Parameter]
+    public EventCallback<int> SelectedPage { get; set; }
+
+    [Parameter]
+    public int Spread { get; set; }
+
+
+    protected override void OnParametersSet()
+    {
+        CreatePagiantionButtons();
+    }
+
+    private void CreatePagiantionButtons()
+    {
+        _paginationButtons = new List<PaginationButton>();
+        _paginationButtons.Add(new PaginationButton(MetaData.CurrentPage - 1, MetaData.HasPrevious, "Previous"));
+
+        for (int i = 1; i <= MetaData.TotalPages; i++)
+        {
+            if (i >= MetaData.CurrentPage - Spread && i <= MetaData.CurrentPage + Spread)
+                _paginationButtons.Add(new PaginationButton(i, true, i.ToString()) {Active = MetaData.CurrentPage == 1});
+        }
+
+        _paginationButtons.Add(new PaginationButton(MetaData.CurrentPage + 1, MetaData.HasNext, "Next"));
+
+    }
+}
